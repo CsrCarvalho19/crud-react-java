@@ -1,0 +1,19 @@
+{
+  "name": "crud-react-java",
+  "version": "1.0.0",
+  "description": "This project was made to the Special Topics subject for ADS course on FATEC Franca",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CsrCarvalho19/crud-react-java.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CsrCarvalho19/crud-react-java/issues"
+  },
+  "homepage": "https://github.com/CsrCarvalho19/crud-react-java#readme"
+}
