@@ -28,10 +28,11 @@ To start the frontend:
 ```sh
 cd react-frontend
 npm i
-npm init react-app react-frontend
+npm start
 ```
 To start the backend:
 ```sh
+cd backend-employee
 mvn spring-boot:run
 ```
 
