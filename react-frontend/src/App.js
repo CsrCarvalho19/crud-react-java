@@ -15,11 +15,11 @@ function App() {
               <HeaderComponent />
                 <div className="container">
                     <Routes> 
-                          <Route path = "/" element = {ListEmployeeComponent}></Route>
-                          <Route path = "/employees" element = {ListEmployeeComponent}></Route>
-                          <Route path = "/add-employee/:id" element = {CreateEmployeeComponent}></Route>
-                          <Route path = "/view-employee/:id" element = {ViewEmployeeComponent}></Route>
-                          <Route path = "/update-employee/:id" element = {UpdateEmployeeComponent}></Route>
+                          <Route path = "/" exact element = {ListEmployeeComponent} />
+                          <Route path = "/employees" element = {ListEmployeeComponent} />
+                          <Route path = "/add-employee/:id" element = {CreateEmployeeComponent} />
+                          <Route path = "/view-employee/:id" element = {ViewEmployeeComponent} />
+                          <Route path = "/update-employee/:id" element = {UpdateEmployeeComponent} />
                     </Routes>
                 </div>
               <FooterComponent />
